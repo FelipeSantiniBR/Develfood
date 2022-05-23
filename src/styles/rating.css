@@ -1,0 +1,5 @@
+.ratingNumber {
+  display: flex;
+  padding-left: 50%;
+  font-size: 30px;
+}

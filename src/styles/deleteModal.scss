@@ -1,0 +1,29 @@
+.modalBox {
+    height: 150px;
+    background: #f2f2f2;
+    width: 700px;
+    border-radius: 25px;
+    .modalTitle{
+        text-align: center;
+        margin-top: 25px;
+    }
+    .buttonDelModal {
+        margin-left: 35px;
+        margin-right: 25px;
+        width: 40%;
+        margin-top: 30px;
+        border-radius: 20px;
+        background: linear-gradient(#da3131, #b60f0f, #a80715);
+        color: white;
+        height: 38px;
+        border: 0;
+      }
+      .ButtonCancelModal {
+        width: 40%;
+        height: 38px;
+        border: 0;
+        background: gray;
+        color: white;
+        border-radius: 20px;
+      }
+}

@@ -1,0 +1,136 @@
+.container-home {
+  min-height: 100vh;
+  transition: all 0.2s ease-out;
+  padding-top: 85px;
+  padding-left: 80px;
+  &.menu-open {
+    padding-left: 260px;
+  }
+  .user {
+    background: #f2f2f2;
+    width: 47%;
+    height: 130px;
+    display: inline-block;
+    vertical-align: top;
+    .user-text {
+      display: inline-block;
+      vertical-align: middle;
+      padding-left: 30px;
+      width: calc(100% - 120px);
+    }
+    .homeTitle {
+      display: block;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .homeSubtitle {
+      display: block;
+      font-size: 15px;
+      color: gray;
+    }
+    .logoUser {
+      display: inline-block;
+      vertical-align: middle;
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      padding-top: 10px;
+      padding-left: 10px;
+    }
+  }
+}
+.rating {
+  background: #f2f2f2;
+  display: inline-block;
+  width: 51%;
+  margin-left: 1%;
+  padding-left: 50px;
+  .ratingStars {
+    display: inline-block;
+    width: 30%;
+    height: 200px;
+    background: lightgray;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+  h3 {
+    font-size: 25px;
+    color: gray;
+    padding-left: 15px;
+    padding-top: 10px;
+  }
+  .avaliation {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 30%;
+  }
+  .opinionText {
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    padding-top: 30px;
+    .ratingTitle {
+      display: inline-block;
+      font-size: 25px;
+      font-weight: bold;
+      text-align: center;
+      padding-left: 90px;
+    }
+    .ratingText {
+      display: inline-block;
+      font-size: 15px;
+      color: gray;
+      text-align: center;
+      padding-left: 90px;
+      width: 70%;
+    }
+  }
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  margin-top: 50px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu_itens {
+  display: inline;
+  padding-right: 25px;
+  list-style: none;
+}
+
+.menu_link {
+  color: black;
+  margin-right: 1.25rem;
+  text-decoration: none;
+}
+
+.menu_link:hover {
+  text-decoration: underline;
+}
+
+.image {
+  width: 100px;
+}
+
+.search_button {
+  display: inline;
+  margin-top: 15px;
+  padding-left: 300px;
+}
+
+.form-control {
+  width: 200px;
+}
+
+.imageHeader {
+  width: 50px;
+  position: absolute;
+  right: 50px;
+}
